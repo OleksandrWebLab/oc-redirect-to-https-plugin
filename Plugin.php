@@ -8,7 +8,7 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'RedirectToHTTPS',
-            'description' => 'Simple plugin for redirect to HTTPS in frontend',
+            'description' => 'Simple plugin for redirect all request to HTTPS',
             'author'      => 'Alexander Shapoval',
             'icon'        => 'icon-exchange',
         ];

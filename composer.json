@@ -1,6 +1,6 @@
 {
     "name": "popcornphp/redirect-to-https",
-    "description": "Simple plugin for redirect to HTTPS in frontend",
+    "description": "Simple plugin for redirect all request to HTTPS",
     "type": "project",
     "license": "MIT",
     "authors": [
