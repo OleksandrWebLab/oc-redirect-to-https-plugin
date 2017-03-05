@@ -1,0 +1,13 @@
+{
+    "name": "popcornphp/redirect-to-https",
+    "description": "Simple plugin for redirect to HTTPS in frontend",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Shapoval",
+            "email": "popcornphp@gmail.com"
+        }
+    ],
+    "require": {}
+}
