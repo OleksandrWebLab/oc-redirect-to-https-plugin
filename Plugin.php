@@ -11,6 +11,7 @@ class Plugin extends PluginBase
             'description' => 'Simple plugin for redirect all request to HTTPS',
             'author'      => 'Alexander Shapoval',
             'icon'        => 'icon-exchange',
+            'homepage'    => 'https://github.com/PopcornPHP/oc-redirect-to-https'
         ];
     }
 
