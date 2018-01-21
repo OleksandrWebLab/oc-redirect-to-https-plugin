@@ -1,0 +1,8 @@
+fields:
+    statusCode:
+        label: Status code
+        type: dropdown
+        span: left
+        options:
+            302: 302
+            301: 301
