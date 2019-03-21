@@ -19,9 +19,9 @@ class Plugin extends PluginBase
     {
         $this->app['Illuminate\Contracts\Http\Kernel']
             ->prependMiddleware('PopcornPHP\RedirectToHTTPS\Classes\HTTPSMiddleware');
-	}
-	
-	public function registerSettings()
+    }
+
+    public function registerSettings()
     {
         return [
             'redirect_to_https_settings' => [
@@ -31,7 +31,19 @@ class Plugin extends PluginBase
                 'icon'        => 'icon-refresh',
                 'class'       => 'PopcornPHP\RedirectToHTTPS\Models\Settings',
                 'order'       => 500,
-                'keywords'    => 'https redirect'
+                'keywords'    => 'https redirect',
+                'permissions' => ['redirecttohttps.settings']
+            ]
+        ];
+    }
+
+    public function registerPermissions()
+    {
+        return [
+            'redirecttohttps.settings' => [
+                'tab'   => 'RedirectToHTTPS',
+                'label' => 'Manage the redirect settings',
+                'roles' => ['developer']
             ]
         ];
     }
