@@ -1,6 +1,6 @@
 fields:
     statusCode:
-        label: Status code
+        label: popcornphp.redirecttohttps::lang.settings.status_code
         type: dropdown
         span: left
         options:
